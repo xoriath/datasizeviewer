@@ -25,6 +25,9 @@ namespace FourWalledCubicle.DataSizeViewerExt
         private SolutionEvents mSolutionEvents;
 
         private SymbolSizeParser mSymbolParser;
+        
+        private Visibility mSymbolTableVisibility = Visibility.Hidden;
+        private Visibility mErrorVisibility = Visibility.Hidden;
 
         private bool mShowDataSegmentState = true;
         public bool mShowDataSegment

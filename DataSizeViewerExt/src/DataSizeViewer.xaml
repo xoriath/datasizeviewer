@@ -103,7 +103,8 @@
                       dsv:ListViewSorter.CustomListViewSorter="{StaticResource ResourceKey=ItemSizeComparer}"
                       ScrollViewer.CanContentScroll="True"
                       ScrollViewer.VerticalScrollBarVisibility="Auto"
-                      BorderThickness="0">
+                      BorderThickness="0"
+                      Visibility="{Binding mSymbolTableVisibility}">
 
             <ListBox.CommandBindings>
                 <CommandBinding Command="ApplicationCommands.Copy" CanExecute="symbolSize_CopyCmdCanExecute" Executed="symbolSize_CopyCmdExecuted" />
